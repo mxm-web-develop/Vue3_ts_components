@@ -1,15 +1,11 @@
 <template>
   <div>
-  <!-- <div id='linkModal' class="fixed w-full h-full">
-    <div class='gray-cover bg-font-dark-blue h-full w-full '></div>
-  </div> -->
-
-  <div id="nav">
+  <div id="nav" class=" bg-font-dark-blue text-white py-5 px-2">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">RichInput</router-link>
   </div>
   <router-view />
-    </div>
+  </div>
 </template>
 <style lang="less" scoped>
 .gray-cover{

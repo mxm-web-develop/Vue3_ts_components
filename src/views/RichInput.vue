@@ -6,7 +6,6 @@
 
 <script lang="ts">
 import { defineComponent,defineAsyncComponent } from "vue";
-// import Tiptap from '@/components/RichInput/index.vue'
 const Tiptap = defineAsyncComponent(()=>import('@/components/RichInput/index.vue'))
 export default defineComponent({
   components:{
